@@ -1,0 +1,132 @@
+.form-login {
+  margin-top: 69px; }
+
+.registration-modal .form-group input[type=text] {
+  height: 35px;
+  font-size: 16px;
+  border: 2px solid #cbcbcb;
+  border-radius: 0;
+  width: 40px;
+  text-align: center; }
+
+.form-right-login {
+  font-family: "Helvetica Neue";
+  font-size: 14px; }
+  .form-right-login .form-group {
+    margin-bottom: 25px; }
+  .form-right-login .form-control {
+    font-size: 14px; }
+  .form-right-login .btn {
+    font-size: 14px; }
+  .form-right-login .link-active {
+    font-size: 26px;
+    font-weight: 900;
+    color: #0077CB;
+    text-decoration: none;
+    border-bottom: 4px solid #0077CB;
+    padding-bottom: 4px; }
+    .form-right-login .link-active:hover {
+      text-decoration: none;
+      border-bottom: 4px solid #014c8c; }
+  .form-right-login .link {
+    font-size: 26px;
+    font-weight: 900;
+    color: #D2D2D2; }
+
+.bike-challenge-enable-bootstrap .offset-md-6 {
+  transform: translateY(-50%);
+  top: 50%;
+  position: absolute; }
+
+#registration-next-button, #login_submit_button {
+  font-size: 16px;
+  border-radius: 0;
+  padding: 7px 40px; }
+
+.registration-modal {
+  font-size: 14px; }
+  .registration-modal .modal-body {
+    max-height: 70vh;
+    overflow: auto; }
+  .registration-modal .btn {
+    font-size: 14px; }
+  .registration-modal .h5, .registration-modal h5 {
+    font-size: 2.25rem; }
+
+.registration_login_col_container {
+  max-width: 30px; }
+
+.signup_form {
+  margin-top: 30px;
+  max-width: 360px; }
+  .signup_form .form-group {
+    margin-bottom: 20px; }
+    .signup_form .form-group label {
+      font-size: 16px; }
+    .signup_form .form-group input {
+      height: 35px;
+      font-size: 16px;
+      border: 2px solid #cbcbcb;
+      border-radius: 0; }
+    .signup_form .form-group select {
+      height: 35px !important;
+      font-size: 16px;
+      border: 2px solid #cbcbcb;
+      border-radius: 0; }
+
+.login_sign_title {
+  font-size: 20px; }
+  .login_sign_title a {
+    font-size: 20px; }
+    .login_sign_title a:hover {
+      border-bottom: 4px solid #014c8c;
+      padding-bottom: 4px;
+      text-decoration: none; }
+  .login_sign_title span {
+    padding: 0 15px;
+    color: #D2D2D2;
+    font-size: 26px; }
+
+.img_left_registration {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: 100vh;
+  overflow: hidden; }
+  .img_left_registration img {
+    height: 100%;
+    width: auto;
+    max-width: initial; }
+
+.simplistics_errors {
+  color: red;
+  margin: 25px 0; }
+  .simplistics_errors ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+    .simplistics_errors ul li:before {
+      content: "*"; }
+
+@media (max-width: 767px) {
+  .img_left_registration {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    overflow: hidden; }
+
+  .registration_login_col_container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    max-width: 380px;
+    margin: 0 auto; }
+
+  .form-right-login .col-md-4, .form-right-login .col-md-2 {
+    display: inline-block; }
+
+  .login_sign_title .link, .login_sign_title span {
+    color: grey; } }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,45 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3 col-xs-12">
+            <div class="w2phone">
+                <img alt="" src="http://handsontek.net/demoimages/mobileapp/iphone5s-ns.png" class="img-responsive">
+				<div class="iphone5-screen">				
+    			    <div class="carousel slide" data-ride="carousel">
+                    <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="http://handsontek.net/demoimages/mobileapp/iphone5s-app1.jpeg" class="img-responsive">
+                            </div>
+                            <div class="item">
+                                <img src="http://handsontek.net/demoimages/mobileapp/iphone5s-app2.jpeg" class="img-responsive">
+                            </div>
+                            <div class="item">
+                                <img src="http://handsontek.net/demoimages/mobileapp/iphone5s-app3.jpeg" class="img-responsive">
+                            </div>
+                            <div class="item">
+                                <img src="http://handsontek.net/demoimages/mobileapp/iphone5s-app4.jpeg" class="img-responsive">
+                            </div>
+                            <div class="item">
+                                <div>
+                                           <h2>Promote your mobile app using a bootstrap carrousel</h2>
+        <p>Praesent congue iaculis pulvinar. Praesent sit amet consequat sem, nec scelerisque nisl.</p>
+        <p>Nullam urna erat, aliquet vel neque ut, tincidunt lacinia purus. Praesent at tincidunt arcu. Nullam fringilla a ipsum vel condimentum. Nam vehicula condimentum semper. Pellentesque vehicula tempus purus nec varius.</p>
+        <p>Vestibulum ullamcorper mattis orci, sed tempus elit malesuada consequat. Integer sagittis metus quis bibendum posuere. In convallis dapibus tempus. Donec id mi in enim pulvinar ultrices.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>                 
+				</div>
+            </div>
+        </div>
+        <div class="col-sm-9 col-xs-12">
+        <h2>Promote your mobile app using a bootstrap carrousel</h2>
+        <p>Praesent congue iaculis pulvinar. Praesent sit amet consequat sem, nec scelerisque nisl.</p>
+        <p>Nullam urna erat, aliquet vel neque ut, tincidunt lacinia purus. Praesent at tincidunt arcu. Nullam fringilla a ipsum vel condimentum. Nam vehicula condimentum semper. Pellentesque vehicula tempus purus nec varius.</p>
+        <p>Vestibulum ullamcorper mattis orci, sed tempus elit malesuada consequat. Integer sagittis metus quis bibendum posuere. In convallis dapibus tempus. Donec id mi in enim pulvinar ultrices.</p>
+
+            
+        </div>
+	</div>
+</div>

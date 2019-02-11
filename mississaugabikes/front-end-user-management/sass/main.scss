@@ -1,0 +1,184 @@
+.form-login{
+	margin-top:69px;
+}
+$primary-color: #0077CB;
+$grey-color:#D2D2D2;
+
+.registration-modal .form-group input[type=text] {
+    height: 35px;
+    font-size: 16px;
+    border: 2px solid #cbcbcb;
+    border-radius: 0;
+    width:40px;
+    text-align:center;
+}
+
+.form-right-login{
+	
+	font-family: "Helvetica Neue";
+	font-size:14px;
+	//max-width: 380px;
+
+	.form-group{
+		margin-bottom:25px;
+	}
+
+	.form-control{
+		font-size:14px;
+	}
+
+	.btn{
+		font-size:14px;
+	}
+
+	.link-active{
+		font-size: 26px;
+		font-weight:900;
+		color:$primary-color;
+		text-decoration: none;
+		border-bottom: 4px solid $primary-color;
+		padding-bottom: 4px;
+		&:hover{
+			text-decoration: none;
+			border-bottom: 4px solid #014c8c;
+		}
+
+	}
+
+	.link{
+		font-size: 26px;
+		font-weight:900;
+		color:$grey-color;
+
+	}
+	
+}
+.bike-challenge-enable-bootstrap .offset-md-6 {
+    // margin-left: 50%;
+     transform: translateY(-50%);
+	 top: 50%;
+	 position: absolute;
+}
+#registration-next-button, #login_submit_button {
+    font-size: 16px;
+    border-radius: 0;
+    padding: 7px 40px;
+}
+.registration-modal{
+	font-size:14px;
+	
+	.modal-body{
+		//min-height:500px;
+		//max-height:500px;
+
+		max-height:70vh;
+    	overflow:auto;
+	}
+
+	.btn{
+		font-size:14px;
+	}
+
+	.h5, h5 {
+    font-size: 2.25rem;
+	}
+}
+
+.registration_login_col_container{
+	max-width: 30px;
+}
+.signup_form{
+	margin-top:30px;
+	 max-width: 360px;
+	.form-group{
+		margin-bottom: 20px;
+		label{
+			font-size: 16px;
+		}
+		input{
+			height: 35px;
+			font-size: 16px;
+			border: 2px solid #cbcbcb;
+			border-radius: 0 ;
+		}
+
+		select{
+		    height: 35px !important;
+		    font-size: 16px;
+		    border: 2px solid #cbcbcb;
+		    border-radius: 0;
+		}
+	}
+}
+.login_sign_title{
+	font-size: 20px;
+	a{
+		font-size: 20px;
+		&:hover{
+			border-bottom: 4px solid #014c8c;
+			padding-bottom: 4px;
+			text-decoration: none;
+		}
+	}
+	span{
+		padding: 0 15px;
+		color: #D2D2D2;
+		font-size:26px;
+	}
+}
+.img_left_registration{
+	position: fixed;
+	left: 0; 
+	top: 0;
+	width: 50%;
+	height: 100vh;
+	overflow: hidden;
+	img{
+		height: 100%; 
+		width: auto;
+		max-width: initial;
+
+	}
+}
+.simplistics_errors{
+	color: red; 
+	margin: 25px 0;
+	ul{
+		list-style: none;
+		padding: 0; 
+		margin: 0; 
+		li{
+			&:before{
+				content: "*";
+			}
+		}
+	}
+}
+@media (max-width: 767px){
+	.img_left_registration{
+		position: fixed;
+		left: 0; 
+		top: 0;
+		width: 100%;
+		overflow: hidden;
+	}
+	.registration_login_col_container{
+		background: rgba(255, 255, 255, 0.8);
+		padding: 40px; 
+		max-width: 380px;
+		margin: 0 auto;
+	}
+	// .bike-challenge-enable-bootstrap .offset-md-6 {
+ //   	 	transform: translateY(0);
+	// }
+	.form-right-login{
+		.col-md-4, .col-md-2{
+			display: inline-block;
+		}
+	}
+	.login_sign_title{
+		.link, span{
+			color: grey;
+		}
+	}
+}

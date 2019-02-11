@@ -1,0 +1,37 @@
+.dp3_widget_1 {
+    background-image: url(../img/banner-1.jpg);
+    color: #fff;
+    font-weight: 900;
+    padding-left: 8px;
+    background-size: cover;
+    height: 100px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.w2phone {
+    position: relative;
+    margin-top: 15px;
+}
+
+.w2phone .iphone5-screen {
+    left: 8.2%;
+    overflow: none;
+    position: absolute;
+    right: 8.2%;
+    top: 14.5%;
+}
+
+.w2phone h2 {
+    color: white;
+    margin: auto;
+    width: 80%;
+    border: 3px solid white;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+

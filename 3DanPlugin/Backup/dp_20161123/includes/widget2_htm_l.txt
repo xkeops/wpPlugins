@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3 col-xs-12">
+            <div class="w2phone">
+                <img alt="" src="http://handsontek.net/demoimages/mobileapp/iphone5s-ns.png" class="img-responsive">
+				<div class="iphone5-screen">				
+    			    <div class="carousel slide" data-ride="carousel">
+                    <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="../img/banner-1.jpg" class="img-responsive">
+                            </div>
+                            <div class="item">
+                                <div>
+                                           <h2>Promote your mobile app using a bootstrap carrousel</h2>
+        				  <p>Praesent congue iaculis pulvinar. Praesent sit amet consequat sem, nec scelerisque nisl.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                 
+				</div>
+            </div>
+        </div>
+    </div>
+</div>
